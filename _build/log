@@ -1,0 +1,176 @@
+# dune build @bsb_world
+# OCAMLPARAM: unset
+# Workspace root: /Volumes/SSD/Github/rescript13
+$ /usr/local/bin/nproc > /var/folders/rt/7lc5vcw16459dszl8djk35fh0000gn/T/dune53bf36.output 2> /dev/null
+# Auto-detected concurrency: 4
+# disable binary cache
+$ /Volumes/SSD/.esy/3__________________________________________________________________/i/ocaml-39f2e746/bin/ocamlc.opt -config > /var/folders/rt/7lc5vcw16459dszl8djk35fh0000gn/T/dune5bf880.output
+# Dune context:
+#  { name = "default"
+#  ; kind = "default"
+#  ; profile = Dyn
+#  ; merlin = true
+#  ; for_host = None
+#  ; fdo_target_exe = None
+#  ; build_dir = "default"
+#  ; toplevel_path =
+#      Some
+#        External
+#          "/Volumes/SSD/.esy/3__________________________________________________________________/i/opam__s__ocamlfind-opam__c__1.8.1-72f5ac62/toplevel"
+#  ; ocaml_bin =
+#      External
+#        "/Volumes/SSD/.esy/3__________________________________________________________________/i/ocaml-39f2e746/bin"
+#  ; ocaml =
+#      Ok
+#        External
+#          "/Volumes/SSD/.esy/3__________________________________________________________________/i/opam__s__ocamlfind-opam__c__1.8.1-72f5ac62/bin/ocaml"
+#  ; ocamlc =
+#      External
+#        "/Volumes/SSD/.esy/3__________________________________________________________________/i/ocaml-39f2e746/bin/ocamlc.opt"
+#  ; ocamlopt =
+#      Ok
+#        External
+#          "/Volumes/SSD/.esy/3__________________________________________________________________/i/ocaml-39f2e746/bin/ocamlopt.opt"
+#  ; ocamldep =
+#      Ok
+#        External
+#          "/Volumes/SSD/.esy/3__________________________________________________________________/i/ocaml-39f2e746/bin/ocamldep.opt"
+#  ; ocamlmklib =
+#      Ok
+#        External
+#          "/Volumes/SSD/.esy/3__________________________________________________________________/i/ocaml-39f2e746/bin/ocamlmklib.opt"
+#  ; env =
+#      map
+#        { "DUNE_OCAML_HARDCODED" : "/Volumes/SSD/.opam/book/lib"
+#        ; "DUNE_OCAML_STDLIB" :
+#            "/Volumes/SSD/.esy/3__________________________________________________________________/i/ocaml-39f2e746/lib/ocaml"
+#        ; "DUNE_SOURCEROOT" : "/Volumes/SSD/Github/rescript13"
+#        ; "INSIDE_DUNE" : "/Volumes/SSD/Github/rescript13/_build/default"
+#        ; "MANPATH" :
+#            "/Volumes/SSD/Github/rescript13/_build/install/default/bin"
+#        ; "OCAMLFIND_IGNORE_DUPS_IN" :
+#            "/Volumes/SSD/Github/rescript13/_build/install/default/lib"
+#        ; "OCAMLTOP_INCLUDE_PATH" :
+#            "/Volumes/SSD/Github/rescript13/_build/install/default/lib/toplevel"
+#        ; "OCAML_COLOR" : "always"
+#        ; "OPAMCOLOR" : "always"
+#        }
+#  ; findlib_path =
+#      [ External
+#          "/Volumes/SSD/.esy/3__________________________________________________________________/i/bs_platform-5fa44314/lib"
+#      ; External
+#          "/Volumes/SSD/.esy/3__________________________________________________________________/i/esy_ocaml__s__reason-3.7.0-8c113934/lib"
+#      ; External
+#          "/Volumes/SSD/.esy/3__________________________________________________________________/i/opam__s__dune-opam__c__2.8.4-5f386663/lib"
+#      ; External
+#          "/Volumes/SSD/.esy/3__________________________________________________________________/i/opam__s__dune_action_plugin-opam__c__2.8.4-4badd90c/lib"
+#      ; External
+#          "/Volumes/SSD/.esy/3__________________________________________________________________/i/opam__s__ocamlfind-opam__c__1.8.1-72f5ac62/lib"
+#      ; External
+#          "/Volumes/SSD/.esy/3__________________________________________________________________/i/ocaml-39f2e746/lib"
+#      ; External
+#          "/Volumes/SSD/.esy/3__________________________________________________________________/i/opam__s__fix-opam__c__20201120-42126429/lib"
+#      ; External
+#          "/Volumes/SSD/.esy/3__________________________________________________________________/i/opam__s__menhir-opam__c__20210310-5a4592e7/lib"
+#      ; External
+#          "/Volumes/SSD/.esy/3__________________________________________________________________/i/opam__s__merlin_extend-opam__c__0.6-2800835e/lib"
+#      ; External
+#          "/Volumes/SSD/.esy/3__________________________________________________________________/i/opam__s__ppx__derivers-opam__c__1.2.1-249b8c98/lib"
+#      ; External
+#          "/Volumes/SSD/.esy/3__________________________________________________________________/i/opam__s__result-opam__c__1.5-917586ac/lib"
+#      ; External
+#          "/Volumes/SSD/.esy/3__________________________________________________________________/i/esy_ocaml__s__substs-0.0.1-dcea4195/lib"
+#      ; External
+#          "/Volumes/SSD/.esy/3__________________________________________________________________/i/opam__s__base_threads-opam__c__base-beddf47d/lib"
+#      ; External
+#          "/Volumes/SSD/.esy/3__________________________________________________________________/i/opam__s__base_unix-opam__c__base-b5812a5c/lib"
+#      ; External
+#          "/Volumes/SSD/.esy/3__________________________________________________________________/i/opam__s__dune_glob-opam__c__2.8.4-12006ccd/lib"
+#      ; External
+#          "/Volumes/SSD/.esy/3__________________________________________________________________/i/opam__s__dune_private_libs-opam__c__2.8.4-fb1e768c/lib"
+#      ; External
+#          "/Volumes/SSD/.esy/3__________________________________________________________________/i/opam__s__conf_m4-opam__c__1-d2b720aa/lib"
+#      ; External
+#          "/Volumes/SSD/.esy/3__________________________________________________________________/i/opam__s__menhirlib-opam__c__20210310-6eeac5d3/lib"
+#      ; External
+#          "/Volumes/SSD/.esy/3__________________________________________________________________/i/opam__s__menhirsdk-opam__c__20210310-cd5dc8c2/lib"
+#      ; External
+#          "/Volumes/SSD/.esy/3__________________________________________________________________/i/opam__s__cppo-opam__c__1.6.7-73221680/lib"
+#      ; External
+#          "/Volumes/SSD/.esy/3__________________________________________________________________/i/esy_m4-348b30cd/lib"
+#      ; External
+#          "/Volumes/SSD/.fnm/node-versions/v14.15.4/installation/lib/node_modules/esy/3/i/esy-d2c288c9/lib"
+#      ; External "/Volumes/SSD/.opam/book/lib"
+#      ]
+#  ; arch_sixtyfour = true
+#  ; natdynlink_supported = true
+#  ; supports_shared_libraries = true
+#  ; ocaml_config =
+#      { version = "4.12.0+BS"
+#      ; standard_library_default =
+#          "/Volumes/SSD/.esy/3__________________________________________________________________/i/ocaml-39f2e746/lib/ocaml"
+#      ; standard_library =
+#          "/Volumes/SSD/.esy/3__________________________________________________________________/i/ocaml-39f2e746/lib/ocaml"
+#      ; standard_runtime = "the_standard_runtime_variable_was_deleted"
+#      ; ccomp_type = "cc"
+#      ; c_compiler = "gcc"
+#      ; ocamlc_cflags = [ "-O2"; "-fno-strict-aliasing"; "-fwrapv" ]
+#      ; ocamlc_cppflags = [ "-D_FILE_OFFSET_BITS=64"; "-D_REENTRANT" ]
+#      ; ocamlopt_cflags = [ "-O2"; "-fno-strict-aliasing"; "-fwrapv" ]
+#      ; ocamlopt_cppflags = [ "-D_FILE_OFFSET_BITS=64"; "-D_REENTRANT" ]
+#      ; bytecomp_c_compiler =
+#          [ "gcc"
+#          ; "-O2"
+#          ; "-fno-strict-aliasing"
+#          ; "-fwrapv"
+#          ; "-D_FILE_OFFSET_BITS=64"
+#          ; "-D_REENTRANT"
+#          ]
+#      ; bytecomp_c_libraries = [ "-lm"; "-lpthread" ]
+#      ; native_c_compiler =
+#          [ "gcc"
+#          ; "-O2"
+#          ; "-fno-strict-aliasing"
+#          ; "-fwrapv"
+#          ; "-D_FILE_OFFSET_BITS=64"
+#          ; "-D_REENTRANT"
+#          ]
+#      ; native_c_libraries = [ "-lm" ]
+#      ; cc_profile = []
+#      ; architecture = "amd64"
+#      ; model = "default"
+#      ; int_size = 63
+#      ; word_size = 64
+#      ; system = "macosx"
+#      ; asm = [ "clang"; "-arch"; "x86_64"; "-Wno-trigraphs"; "-c" ]
+#      ; asm_cfi_supported = true
+#      ; with_frame_pointers = false
+#      ; ext_exe = ""
+#      ; ext_obj = ".o"
+#      ; ext_asm = ".s"
+#      ; ext_lib = ".a"
+#      ; ext_dll = ".so"
+#      ; os_type = "Unix"
+#      ; default_executable_name = "a.out"
+#      ; systhread_supported = true
+#      ; host = "x86_64-apple-darwin20.3.0"
+#      ; target = "x86_64-apple-darwin20.3.0"
+#      ; profiling = false
+#      ; flambda = true
+#      ; spacetime = false
+#      ; safe_string = true
+#      ; exec_magic_number = "Caml1999X029"
+#      ; cmi_magic_number = "Caml1999I029"
+#      ; cmo_magic_number = "Caml1999O029"
+#      ; cma_magic_number = "Caml1999A029"
+#      ; cmx_magic_number = "Caml1999y029"
+#      ; cmxa_magic_number = "Caml1999z029"
+#      ; ast_impl_magic_number = "Caml1999M029"
+#      ; ast_intf_magic_number = "Caml1999N029"
+#      ; cmxs_magic_number = "Caml1999D029"
+#      ; cmt_magic_number = "Caml1999T029"
+#      ; natdynlink_supported = true
+#      ; supports_shared_libraries = true
+#      ; windows_unicode = false
+#      }
+#  }

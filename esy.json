@@ -1,0 +1,17 @@
+{
+    "dependencies": {
+        "bs-platform": "*",
+        "react": "^16.8.1",
+        "react-dom": "^16.8.1",
+        "reason-react": ">=0.7.1"
+    },
+    "resolutions": {
+        "bs-platform": "anmonteiro/bucklescript#1a00d85",
+        "ocaml": "anmonteiro/ocaml#75f22c8"
+    },
+    "esy": {
+        "buildsInSource": "unsafe",
+        "build": [ "ln -sfn #{bs-platform.install} node_modules/bs-platform" ]
+    },
+    "installConfig": { "pnp": false }
+}

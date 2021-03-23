@@ -1,0 +1,32 @@
+{
+    "name": "rescript13",
+    "version": "0.1.0",
+    "scripts": {
+        "build": "esy bsb -make-world",
+        "start": "esy bsb -make-world -w",
+        "clean": "esy bsb -clean-world",
+        "server": "moduleserve ./ --port 8888",
+        "serve": "parcel src/Index.bs.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "BuckleScript",
+        "ReasonReact",
+        "reason-react"
+    ],
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+        "react": "^16.8.1",
+        "react-dom": "^16.8.1",
+        "reason-react": ">=0.7.1"
+    },
+    "devDependencies": {
+        "bsb-js": "^1.1.7",
+        "moduleserve": "^0.9.0",
+        "parcel": "^2.0.0-beta.2",
+        "webpack": "^5.27.2",
+        "webpack-cli": "^4.5.0",
+        "webpack-dev-server": "^3.11.2"
+    }
+}
